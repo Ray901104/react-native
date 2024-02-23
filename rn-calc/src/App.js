@@ -7,10 +7,11 @@ export default function App() {
         <View style={styles.container}>
             <Text style={styles.text}>RN Calc App</Text>
             <Button title={"button"} color={"red"} onPress={() => console.log("click!")}></Button>
+            <Button color={"red"} onPress={() => console.log("click!")}></Button>
             <StatusBar style="auto"/>
         </View>
     );
-}
+};
 
 const styles = StyleSheet.create({
     container: {
